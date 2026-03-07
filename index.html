@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Moreau — BTS SIO SISR</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div class="loader" id="loader">
+    <div class="loader__text">INIT<span class="blink">_</span></div>
+    <div class="loader__bar"><div class="loader__fill"></div></div>
+  </div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">AM<span class="accent">.</span></div>
+    <ul class="nav__links">
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#projects">Projets</a></li>
+      <li><a href="#veille">Veille</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav__status"><span class="dot"></span>Disponible</div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__grid-lines" aria-hidden="true"></div>
+    <div class="hero__content">
+      <div class="hero__tag">BTS SIO · Option SISR · 2024–2026</div>
+      <h1 class="hero__name">Alex<br><span class="outline">Moreau</span></h1>
+      <p class="hero__subtitle">Solutions d'Infrastructure,<br>Systèmes &amp; Réseaux</p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">Voir mes projets</a>
+        <a href="assets/CV_Alex_Moreau.pdf" class="btn btn--ghost" target="_blank">Télécharger CV</a>
+      </div>
+    </div>
+    <div class="hero__badges">
+      <span class="badge">Linux</span>
+      <span class="badge">Cisco</span>
+      <span class="badge">Windows Server</span>
+      <span class="badge">Virtualisation</span>
+      <span class="badge">Sécurité</span>
+    </div>
+    <div class="hero__scroll">
+      <span>SCROLL</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section class="section about" id="about">
+    <div class="section__label">01 / À PROPOS</div>
+    <div class="about__grid">
+      <div class="about__text">
+        <h2>Passionné par<br><em>les infrastructures</em></h2>
+        <p>Étudiant en 2ème année de BTS SIO option SISR au lycée <strong>Jean Moulin</strong> à Lyon, je me spécialise dans l'administration système et réseau. Mon objectif : concevoir des infrastructures fiables, sécurisées et performantes.</p>
+        <p>En dehors des cours, j'explore le homelab, participe à des CTF et contribue à des projets open source liés à l'automatisation réseau.</p>
+        <div class="about__info">
+          <div class="about__info-item">
+            <span class="label">Formation</span>
+            <span>BTS SIO SISR</span>
+          </div>
+          <div class="about__info-item">
+            <span class="label">Établissement</span>
+            <span>Lycée Jean Moulin, Lyon</span>
+          </div>
+          <div class="about__info-item">
+            <span class="label">Alternance</span>
+            <span>2j école / 3j entreprise</span>
+          </div>
+          <div class="about__info-item">
+            <span class="label">Entreprise</span>
+            <span>TechNet Solutions, Lyon</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__visual">
+        <div class="terminal">
+          <div class="terminal__bar">
+            <span class="terminal__dot red"></span>
+            <span class="terminal__dot yellow"></span>
+            <span class="terminal__dot green"></span>
+            <span class="terminal__title">alex@server:~</span>
+          </div>
+          <div class="terminal__body">
+            <p><span class="prompt">$</span> whoami</p>
+            <p class="output">alex.moreau</p>
+            <p><span class="prompt">$</span> cat profil.txt</p>
+            <p class="output">Étudiant BTS SIO SISR</p>
+            <p class="output">Passionné d'infra & sécu</p>
+            <p class="output">Lyon, France 🇫🇷</p>
+            <p><span class="prompt">$</span> skills --list</p>
+            <p class="output">→ Administration Linux/Windows</p>
+            <p class="output">→ Réseaux Cisco (CCNA lvl)</p>
+            <p class="output">→ Virtualisation VMware/Proxmox</p>
+            <p class="output">→ Scripting Bash &amp; PowerShell</p>
+            <p class="output">→ Cybersécurité &amp; hardening</p>
+            <p><span class="prompt blink">_</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section class="section skills" id="skills">
+    <div class="section__label">02 / COMPÉTENCES</div>
+    <h2>Stack technique</h2>
+    <div class="skills__grid">
+
+      <div class="skill-card">
+        <div class="skill-card__icon">🖥️</div>
+        <h3>Systèmes</h3>
+        <ul>
+          <li>Debian / Ubuntu Server</li>
+          <li>Windows Server 2019/2022</li>
+          <li>Active Directory & GPO</li>
+          <li>DNS, DHCP, NFS, Samba</li>
+        </ul>
+        <div class="skill-card__level">
+          <span class="level-bar" style="--w:80%"></span>
+          <span>Avancé</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">🌐</div>
+        <h3>Réseaux</h3>
+        <ul>
+          <li>Cisco IOS (Packet Tracer)</li>
+          <li>Routage OSPF, RIP, BGP</li>
+          <li>VLANs, STP, agrégation</li>
+          <li>VPN IPsec / OpenVPN</li>
+        </ul>
+        <div class="skill-card__level">
+          <span class="level-bar" style="--w:75%"></span>
+          <span>Avancé</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">☁️</div>
+        <h3>Virtualisation &amp; Cloud</h3>
+        <ul>
+          <li>VMware ESXi / vSphere</li>
+          <li>Proxmox VE</li>
+          <li>Docker &amp; containers</li>
+          <li>Notions AWS / Azure</li>
+        </ul>
+        <div class="skill-card__level">
+          <span class="level-bar" style="--w:65%"></span>
+          <span>Intermédiaire</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">🔐</div>
+        <h3>Sécurité</h3>
+        <ul>
+          <li>Pare-feu pfSense / iptables</li>
+          <li>SIEM / Wazuh</li>
+          <li>Analyse de vulnérabilités</li>
+          <li>CTF &amp; Capture The Flag</li>
+        </ul>
+        <div class="skill-card__level">
+          <span class="level-bar" style="--w:60%"></span>
+          <span>Intermédiaire</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">⚙️</div>
+        <h3>Automatisation</h3>
+        <ul>
+          <li>Bash scripting</li>
+          <li>PowerShell</li>
+          <li>Ansible (débutant)</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+        <div class="skill-card__level">
+          <span class="level-bar" style="--w:70%"></span>
+          <span>Avancé</span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <div class="skill-card__icon">🛠️</div>
+        <h3>Outils & Monitoring</h3>
+        <ul>
+          <li>Wireshark / tcpdump</li>
+          <li>Nagios / Zabbix</li>
+          <li>Grafana &amp; Prometheus</li>
+          <li>GLPI (helpdesk)</li>
+        </ul>
+        <div class="skill-card__level">
+          <span class="level-bar" style="--w:68%"></span>
+          <span>Intermédiaire</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section class="section projects" id="projects">
+    <div class="section__label">03 / PROJETS</div>
+    <h2>Réalisations</h2>
+    <div class="projects__grid">
+
+      <article class="project-card project-card--featured">
+        <div class="project-card__tag">Projet E5 · 2025</div>
+        <h3>Infrastructure réseau d'entreprise simulée</h3>
+        <p>Conception et déploiement d'une infrastructure réseau complète sous GNS3 : routeurs Cisco, VLANs, haute disponibilité HSRP, filtrage ACL et DMZ. Documentation ANSSI.</p>
+        <div class="project-card__tech">
+          <span>GNS3</span><span>Cisco IOS</span><span>VLAN</span><span>HSRP</span><span>ACL</span>
+        </div>
+        <div class="project-card__links">
+          <a href="https://github.com/alexmoreau/infra-entreprise" target="_blank" class="link">GitHub →</a>
+          <a href="projets/infra-reseau.html" class="link">Détails →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__tag">Stage · 2024</div>
+        <h3>Déploiement Active Directory</h3>
+        <p>Mise en place d'un domaine Windows Server 2022 avec GPO, gestion des OUs, et intégration des postes Windows 10/11 pour 60 utilisateurs.</p>
+        <div class="project-card__tech">
+          <span>Windows Server</span><span>AD DS</span><span>GPO</span><span>PowerShell</span>
+        </div>
+        <div class="project-card__links">
+          <a href="projets/active-directory.html" class="link">Détails →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__tag">Perso · 2024</div>
+        <h3>Homelab sous Proxmox</h3>
+        <p>Serveur maison avec Proxmox VE hébergeant Pi-hole, Nextcloud, Jellyfin et un SIEM Wazuh. Sauvegarde automatisée avec scripts Bash.</p>
+        <div class="project-card__tech">
+          <span>Proxmox</span><span>Docker</span><span>Bash</span><span>Wazuh</span>
+        </div>
+        <div class="project-card__links">
+          <a href="https://github.com/alexmoreau/homelab" target="_blank" class="link">GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__tag">Scolaire · 2025</div>
+        <h3>Audit de sécurité réseau</h3>
+        <p>Analyse de vulnérabilités d'un réseau simulé : scan Nmap, exploitation Metasploit, rapport de remédiation et mise en place de contre-mesures.</p>
+        <div class="project-card__tech">
+          <span>Kali Linux</span><span>Nmap</span><span>Metasploit</span><span>pfSense</span>
+        </div>
+        <div class="project-card__links">
+          <a href="projets/audit-securite.html" class="link">Détails →</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__tag">Perso · 2025</div>
+        <h3>Scripts d'automatisation Bash</h3>
+        <p>Collection de scripts pour l'administration Linux : sauvegarde incrémentale, monitoring CPU/RAM, alertes email, et déploiement automatisé.</p>
+        <div class="project-card__tech">
+          <span>Bash</span><span>Cron</span><span>Git</span><span>Linux</span>
+        </div>
+        <div class="project-card__links">
+          <a href="https://github.com/alexmoreau/bash-scripts" target="_blank" class="link">GitHub →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- VEILLE TECHNOLOGIQUE -->
+  <section class="section veille" id="veille">
+    <div class="section__label">04 / VEILLE TECHNOLOGIQUE</div>
+    <h2>Veille &amp; apprentissage</h2>
+    <p class="veille__intro">Je maintiens une veille active sur les évolutions de l'infrastructure et de la cybersécurité à travers différentes sources.</p>
+
+    <div class="veille__grid">
+      <div class="veille-card">
+        <div class="veille-card__num">01</div>
+        <h3>Zero Trust Network Access</h3>
+        <p>Étude du modèle ZTNA et de son application dans les architectures hybrides. Analyse des solutions Cloudflare Access et Tailscale.</p>
+        <span class="veille-card__date">Mars 2025</span>
+      </div>
+      <div class="veille-card">
+        <div class="veille-card__num">02</div>
+        <h3>Automatisation avec Ansible</h3>
+        <p>Expérimentation de l'automatisation de configuration réseau via Ansible. Déploiement de playbooks pour la gestion de switches Cisco.</p>
+        <span class="veille-card__date">Février 2025</span>
+      </div>
+      <div class="veille-card">
+        <div class="veille-card__num">03</div>
+        <h3>Sécurité des conteneurs Docker</h3>
+        <p>Bonnes pratiques de sécurisation des images Docker : utilisateurs non-root, scanning de vulnérabilités avec Trivy, politique réseau.</p>
+        <span class="veille-card__date">Janvier 2025</span>
+      </div>
+      <div class="veille-card">
+        <div class="veille-card__num">04</div>
+        <h3>IPv6 en entreprise</h3>
+        <p>Migration IPv4 → IPv6 : double stack, tunneling 6to4, et enjeux de sécurité liés au déploiement d'IPv6 en environnement professionnel.</p>
+        <span class="veille-card__date">Décembre 2024</span>
+      </div>
+    </div>
+
+    <div class="veille__sources">
+      <span class="label">Sources :</span>
+      <a href="#" target="_blank">The Hacker News</a>
+      <a href="#" target="_blank">CERT-FR</a>
+      <a href="#" target="_blank">Cisco Blogs</a>
+      <a href="#" target="_blank">LeMagIT</a>
+      <a href="#" target="_blank">Reddit r/sysadmin</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="section__label">05 / CONTACT</div>
+    <div class="contact__inner">
+      <h2>Parlons<br><em>infrastructure</em></h2>
+      <p>Disponible pour un stage, une alternance ou simplement pour échanger autour de l'administration système et réseau.</p>
+      <div class="contact__links">
+        <a href="mailto:alex.moreau@email.com" class="contact__link">
+          <span class="contact__link-icon">📧</span>
+          <span>alex.moreau@email.com</span>
+        </a>
+        <a href="https://linkedin.com/in/alexmoreau" target="_blank" class="contact__link">
+          <span class="contact__link-icon">💼</span>
+          <span>linkedin.com/in/alexmoreau</span>
+        </a>
+        <a href="https://github.com/alexmoreau" target="_blank" class="contact__link">
+          <span class="contact__link-icon">🐙</span>
+          <span>github.com/alexmoreau</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__left">© 2025 Alex Moreau — BTS SIO SISR</div>
+    <div class="footer__right">
+      <a href="https://github.com/alexmoreau/portfolio" target="_blank">Source GitHub</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
