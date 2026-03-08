@@ -474,20 +474,20 @@ body {
 }
 .link:hover { color: var(--accent); }
 
-/* ======= VEILLE ======= */
-.veille__intro {
+/* ======= FORMATION ======= */
+.formation__intro {
   color: var(--text-muted);
   max-width: 600px;
   margin-bottom: 3rem;
   line-height: 1.8;
 }
-.veille__grid {
+.formation__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
 }
-.veille-card {
+.formation-card {
   border: 1px solid var(--border);
   padding: 2rem;
   background: var(--surface);
@@ -495,8 +495,8 @@ body {
   overflow: hidden;
   transition: all 0.3s ease;
 }
-.veille-card:hover { border-color: var(--accent3); }
-.veille-card__num {
+.formation-card:hover { border-color: var(--accent3); }
+.formation-card__num {
   font-family: var(--font-display);
   font-size: 4rem;
   font-weight: 800;
@@ -506,39 +506,39 @@ body {
   line-height: 1;
   transition: color 0.3s;
 }
-.veille-card:hover .veille-card__num { color: rgba(255,107,53,0.15); }
-.veille-card h3 {
+.formation-card:hover .formation-card__num { color: rgba(255,107,53,0.15); }
+.formation-card h3 {
   font-family: var(--font-display);
   font-size: 1rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
   color: var(--text);
 }
-.veille-card p {
+.formation-card p {
   font-size: 0.8rem;
   color: var(--text-muted);
   line-height: 1.7;
   margin-bottom: 1rem;
 }
-.veille-card__date {
+.formation-card__date {
   font-size: 0.65rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--accent3);
 }
-.veille__sources {
+.formation__sources {
   display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
   padding: 1.5rem;
   border: 1px solid var(--border);
   background: var(--surface);
 }
-.veille__sources .label {
+.formation__sources .label {
   font-size: 0.65rem;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--text-muted);
 }
-.veille__sources a {
+.formation__sources a {
   font-size: 0.75rem;
   color: var(--accent2);
   text-decoration: none;
@@ -546,7 +546,7 @@ body {
   border: 1px solid var(--border);
   transition: all 0.2s;
 }
-.veille__sources a:hover { border-color: var(--accent2); background: rgba(0,170,255,0.05); }
+.formation__sources a:hover { border-color: var(--accent2); background: rgba(0,170,255,0.05); }
 
 /* ======= CONTACT ======= */
 .contact {

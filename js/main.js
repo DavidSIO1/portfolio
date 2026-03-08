@@ -34,7 +34,7 @@ const observer = new IntersectionObserver(
   { threshold: 0.1 }
 );
 
-document.querySelectorAll('.skill-card, .project-card, .veille-card, .about__info-item').forEach((el) => {
+document.querySelectorAll('.skill-card, .project-card, .formation-card, .about__info-item').forEach((el) => {
   el.classList.add('reveal');
   observer.observe(el);
 });
@@ -113,6 +113,6 @@ document.addEventListener('keydown', (e) => {
 });
 
 // --- CONSOLE MESSAGE ---
-console.log('%cAlex Moreau — BTS SIO SISR', 'color: #00ff88; font-size: 20px; font-weight: bold; font-family: monospace;');
+console.log('%cDavid Froger — BTS SIO SISR', 'color: #00ff88; font-size: 20px; font-weight: bold; font-family: monospace;');
 console.log('%c📡 Infrastructure • Systèmes • Réseaux', 'color: #00aaff; font-size: 14px; font-family: monospace;');
 console.log('%c→ github.com/alexmoreau', 'color: #7070a0; font-size: 12px; font-family: monospace;');
