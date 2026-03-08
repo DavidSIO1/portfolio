@@ -1,4 +1,4 @@
-# 🖥️ Portfolio BTS SIO SISR — Alex Moreau
+# 🖥️ Portfolio BTS SIO SISR — David FROGER
 
 > Portfolio personnel d'étudiant en BTS SIO option SISR, hébergeable sur GitHub Pages.
 
@@ -46,12 +46,12 @@ portfolio-bts-sio-sisr/
 
 ### Changer les informations personnelles
 Dans `index.html`, remplace :
-- `Alex Moreau` → ton prénom et nom
-- `alex.moreau@email.com` → ton email
-- `linkedin.com/in/alexmoreau` → ton profil LinkedIn
-- `github.com/alexmoreau` → ton profil GitHub
-- `Lycée Jean Moulin, Lyon` → ton établissement
-- `TechNet Solutions` → ton entreprise d'alternance
+- `David Froger` → ton prénom et nom
+- `david.froger@email.com` → ton email
+- `linkedin.com/in/davidfroger` → ton profil LinkedIn
+- `github.com/davidfroger` → ton profil GitHub
+- `Lycée Fulbert, Chartres` → ton établissement
+- `Tsc` → ton entreprise d'alternance
 
 ### Ajouter un projet
 Copie un bloc `<article class="project-card">` et adapte le contenu.
